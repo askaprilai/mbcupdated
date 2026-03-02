@@ -13,7 +13,7 @@
     { "source": "/membership", "destination": "/membership.html" },
     { "source": "/blog", "destination": "/blog.html" },
     { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/trial", "destination": "/trial.html" },
+    { "source": "/discovery", "destination": "/discovery.html" },
     { "source": "/march10", "destination": "/march10.html" }
   ],
   "redirects": [
@@ -26,7 +26,9 @@
     { "source": "/membership-signup.html", "destination": "/membership-signup", "permanent": true },
     { "source": "/membership.html", "destination": "/membership", "permanent": true },
     { "source": "/blog.html", "destination": "/blog", "permanent": true },
-    { "source": "/trial.html", "destination": "/trial", "permanent": true },
+    { "source": "/trial", "destination": "/discovery", "permanent": true },
+    { "source": "/trial.html", "destination": "/discovery", "permanent": true },
+    { "source": "/discovery.html", "destination": "/discovery", "permanent": true },
     { "source": "/march10.html", "destination": "/march10", "permanent": true }
   ],
   "headers": [
