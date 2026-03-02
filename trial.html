@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$100 Trial Membership | Miami Business Council</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Try THE COUNCIL for just $100. 3-month trial membership with full access to Council Connect, exclusive events, and founding member rate lock-in.">
+    <meta name="keywords" content="Miami Business Council trial, business membership trial, Miami networking, Council Connect">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="$100 Trial Membership - Miami Business Council">
+    <meta property="og:description" content="Try THE COUNCIL for 3 months. Full access, founding member rates locked in forever.">
+    <meta property="og:image" content="https://miamibusinesscouncil.com/Images/MBC LOGO WHITE FINAL NONTRANSPARENT.PNG.png">
+
+    <link rel="icon" type="image/png" href="Images/MBC LOGO WHITE FINAL NONTRANSPARENT.PNG.png">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KZLJZ4SP');</script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #e8eaed;
+            background: #0a0a0b;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            gap: 15px;
+        }
+
+        .logo-image {
+            height: 60px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .back-link {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 6rem 0 4rem;
+            background: linear-gradient(135deg, #0a0a0b 0%, #1a1a2e 50%, #16213e 100%);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .limited-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37 0%, #f4f1e8 100%);
+            color: #000;
+            padding: 0.5rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.4); }
+            50% { box-shadow: 0 0 0 15px rgba(212, 175, 55, 0); }
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff 0%, #f4f1e8 30%, #d4af37 70%, #fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+        }
+
+        .hero .price-highlight {
+            font-size: 4em;
+            font-weight: 700;
+            color: #d4af37;
+            margin: 1rem 0;
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+        }
+
+        .hero .price-period {
+            font-size: 1.5em;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #d4af37 0%, #f4f1e8 100%);
+            color: #000;
+            padding: 1.5rem 3rem;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-size: 1.2em;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.5);
+        }
+
+        /* Event Highlight */
+        .event-highlight {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(0, 0, 0, 0.9) 100%);
+            border-top: 2px solid rgba(212, 175, 55, 0.3);
+            border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .event-card {
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid #d4af37;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .event-date {
+            display: inline-block;
+            background: #d4af37;
+            color: #000;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1.2em;
+            margin-bottom: 1.5rem;
+        }
+
+        .event-card h2 {
+            color: #fff;
+            font-size: 2em;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .event-card h3 {
+            color: #d4af37;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .event-details {
+            color: #ccc;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .event-details strong {
+            color: #d4af37;
+        }
+
+        /* Benefits Section */
+        .benefits-section {
+            padding: 5rem 0;
+            background: #0a0a0b;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin-bottom: 3rem;
+            color: #e8eaed;
+        }
+
+        .section-title span {
+            color: #d4af37;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .benefit-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            border-color: #d4af37;
+            box-shadow: 0 10px 40px rgba(212, 175, 55, 0.2);
+        }
+
+        .benefit-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #d4af37 0%, #f4f1e8 100%);
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8em;
+        }
+
+        .benefit-card h3 {
+            color: #e8eaed;
+            font-size: 1.3em;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+
+        .benefit-card p {
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        /* Founding Rate Lock */
+        .founding-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0b 100%);
+            text-align: center;
+        }
+
+        .founding-badge {
+            display: inline-block;
+            background: transparent;
+            border: 3px solid #d4af37;
+            color: #d4af37;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1em;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+        }
+
+        .founding-section h2 {
+            color: #fff;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .founding-section h2 span {
+            color: #d4af37;
+        }
+
+        .founding-section p {
+            color: #ccc;
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .highlight-box {
+            background: rgba(212, 175, 55, 0.1);
+            border: 2px solid #d4af37;
+            border-radius: 16px;
+            padding: 2rem 3rem;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .highlight-box p {
+            color: #d4af37;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        /* Apply Section */
+        .apply-section {
+            padding: 4rem 0;
+            background: rgba(212, 175, 55, 0.05);
+            text-align: center;
+        }
+
+        .apply-section h2 {
+            color: #d4af37;
+            font-size: 2em;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .apply-section p {
+            color: #ccc;
+            font-size: 1.2em;
+            margin-bottom: 2rem;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 5rem 0;
+            background: #0a0a0b;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #d4af37 0%, #f4f1e8 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #000;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step h3 {
+            color: #e8eaed;
+            font-size: 1.3em;
+            margin-bottom: 0.8rem;
+        }
+
+        .step p {
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            color: #fff;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section .price-tag {
+            font-size: 3.5em;
+            font-weight: 700;
+            color: #d4af37;
+            margin: 1.5rem 0;
+        }
+
+        .cta-section p {
+            color: #ccc;
+            font-size: 1.2em;
+            margin-bottom: 2rem;
+        }
+
+        .guarantee {
+            margin-top: 2rem;
+            color: #888;
+            font-size: 0.95em;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            padding: 2rem 0;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #333;
+        }
+
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero .price-highlight {
+                font-size: 3em;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .event-card {
+                padding: 2rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .btn-primary {
+                padding: 1.2rem 2rem;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZLJZ4SP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="Images/MBC LOGO WHITE FINAL NONTRANSPARENT.PNG.png" alt="Miami Business Council Logo" class="logo-image">
+                    <div class="logo-text">Miami Business Council</div>
+                </a>
+                <a href="index.html" class="back-link">← Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="limited-badge">Limited Time Offer</div>
+            <h1>Try THE COUNCIL</h1>
+            <div class="price-highlight">$100</div>
+            <div class="price-period">3-Month Trial Membership</div>
+            <p>Experience everything THE COUNCIL has to offer. Full access to Council Connect, exclusive events, and AI-powered business matching. Nothing to lose, everything to gain.</p>
+            <a href="https://www.zeffy.com/en-US/ticketing/0195b77c-3b69-7d7e-bac1-1e7a9e6e3de0" class="btn-primary" target="_blank">Get Your Trial Membership - $100</a>
+        </div>
+    </section>
+
+    <!-- Upcoming Event Highlight -->
+    <section class="event-highlight">
+        <div class="container">
+            <div class="event-card">
+                <div class="event-date">March 10th, 2026</div>
+                <h2>Members-Only Roundtable</h2>
+                <h3>Your First Event as a Council Member</h3>
+                <div class="event-details">
+                    <p><strong>Time:</strong> 6:00 PM</p>
+                    <p><strong>Location:</strong> Global Furniture, Miami Design District</p>
+                    <p style="margin-top: 1rem;">Join us for an intimate roundtable discussion with Miami's business leaders. This exclusive event is your opportunity to connect, collaborate, and start building meaningful partnerships from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">What You Get With Your <span>Trial Membership</span></h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔗</div>
+                    <h3>Council Connect Access</h3>
+                    <p>Full access to our AI-powered member portal. Get matched with the right connections based on your business goals.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">👤</div>
+                    <h3>Set Up Your Profile</h3>
+                    <p>Create your professional profile and get discovered by other members looking for your expertise.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📧</div>
+                    <h3>Newsletter Feature</h3>
+                    <p>Exclusive mention in our member newsletter reaching Miami's business community.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍳</div>
+                    <h3>Breakfast Event Feature</h3>
+                    <p>Be featured and introduced at our monthly breakfast networking events.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Roundtable Access</h3>
+                    <p>Attend our exclusive members-only roundtable events including the March 10th event.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📋</div>
+                    <h3>Member Directory</h3>
+                    <p>Access to our curated directory of vetted Miami business leaders and professionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founding Rate Lock Section -->
+    <section class="founding-section">
+        <div class="container">
+            <div class="founding-badge">Founding Member Benefit</div>
+            <h2>Lock In Your <span>Founding Member Rate</span> Forever</h2>
+            <p>When you join now, you lock in the founding member rate for all future annual memberships. This rate is guaranteed for life as long as you remain an active member. Early adopters who believe in THE COUNCIL get rewarded.</p>
+            <div class="highlight-box">
+                <p>Your $100 trial can be applied toward your annual membership</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It <span>Works</span></h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up Today</h3>
+                    <p>Complete your $100 trial membership purchase and get instant access to Council Connect.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Experience THE COUNCIL</h3>
+                    <p>Attend events, connect with members, and see the value of curated business partnerships firsthand.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Upgrade When Ready</h3>
+                    <p>Apply your $100 toward an annual membership and keep your locked-in founding rate forever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Credit Section -->
+    <section class="apply-section">
+        <div class="container">
+            <h2>Nothing to Lose, Everything to Gain</h2>
+            <p>Your $100 trial investment can be applied toward your annual membership. If you love the connections and opportunities, simply upgrade and your trial payment goes toward your annual dues.</p>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Join Miami's Business Leaders?</h2>
+            <div class="price-tag">$100</div>
+            <p>3 months of full membership access. March 10th roundtable included.</p>
+            <a href="https://www.zeffy.com/en-US/ticketing/0195b77c-3b69-7d7e-bac1-1e7a9e6e3de0" class="btn-primary" target="_blank">Start Your Trial Today</a>
+            <p class="guarantee">Questions? Contact us at <a href="mailto:info@miamibusinesscouncil.com" style="color: #d4af37;">info@miamibusinesscouncil.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Miami Business Council. All rights reserved. | <a href="index.html">Home</a> | <a href="membership.html">Full Membership</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
