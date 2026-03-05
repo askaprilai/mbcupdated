@@ -80,12 +80,22 @@
         <h1>Welcome to THE COUNCIL!</h1>
         <p>Your Discovery Membership is now active. You're officially part of Miami's premier business community.</p>
 
-        <div class="highlight" style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.1) 100%); border: 2px solid #d4af37;">
+        <div class="highlight" style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.1) 100%); border: 2px solid #d4af37; padding: 2rem;">
             <h3 style="font-size: 1.5em; margin-bottom: 1rem;">You're Invited: March 10th Roundtable</h3>
             <p style="margin-bottom: 0.5rem;"><strong>Date:</strong> March 10th, 2026</p>
             <p style="margin-bottom: 0.5rem;"><strong>Time:</strong> 6:00 PM - 7:30 PM</p>
             <p style="margin-bottom: 1.5rem;"><strong>Event:</strong> Exclusive Members-Only Roundtable</p>
-            <a href="https://lu.ma/i8x59bp0" class="btn" style="font-size: 1.1em; padding: 1.2rem 2.5rem;" target="_blank">Register for March 10th Now</a>
+
+            <!-- Luma Embed -->
+            <div id="luma-checkout--i8x59bp0"></div>
+            <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
+            <script>
+                window.lumaCheckoutConfig = {
+                    slug: "i8x59bp0",
+                    el: "#luma-checkout--i8x59bp0",
+                    accentColor: "#d4af37"
+                };
+            </script>
         </div>
 
         <p style="margin-top: 2rem;">Check your email for your welcome message with portal access details.</p>
