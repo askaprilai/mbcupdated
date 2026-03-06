@@ -507,12 +507,52 @@
         <div class="container">
             <h2>Stay Informed</h2>
             <p>Get the latest industry insights, trends, and business strategies delivered to your inbox.</p>
-            <form class="newsletter-form">
-                <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
-                <button type="submit" class="newsletter-button">Subscribe</button>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="Enter your email address" required>
+                <button type="submit" class="newsletter-button" id="newsletterBtn">Subscribe</button>
             </form>
+            <p id="newsletterMessage" style="margin-top: 1rem; display: none;"></p>
         </div>
     </section>
+
+    <script>
+        document.getElementById('newsletterForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const email = document.getElementById('newsletterEmail').value;
+            const btn = document.getElementById('newsletterBtn');
+            const msg = document.getElementById('newsletterMessage');
+
+            btn.disabled = true;
+            btn.textContent = 'Subscribing...';
+
+            try {
+                const response = await fetch('/api/newsletter-signup', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await response.json();
+
+                msg.style.display = 'block';
+                if (data.success) {
+                    msg.style.color = '#51cf66';
+                    msg.textContent = '✓ ' + data.message;
+                    document.getElementById('newsletterEmail').value = '';
+                } else {
+                    msg.style.color = '#ff6b6b';
+                    msg.textContent = data.error || 'Something went wrong';
+                }
+            } catch (error) {
+                msg.style.display = 'block';
+                msg.style.color = '#ff6b6b';
+                msg.textContent = 'Failed to subscribe. Please try again.';
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'Subscribe';
+        });
+    </script>
 
     <section class="cta-section">
         <div class="container">
