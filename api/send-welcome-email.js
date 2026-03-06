@@ -112,14 +112,14 @@ export default async function handler(req, res) {
 
           <!-- Next Event -->
           <div style="background: #fff3cd; border: 1px solid #d4af37; padding: 25px; border-radius: 8px; margin-bottom: 30px;">
-            <h3 style="color: #d4af37; margin-top: 0; margin-bottom: 15px;">📅 Join Our Next Event</h3>
+            <h3 style="color: #d4af37; margin-top: 0; margin-bottom: 15px;">📅 You're Invited: March 10th Roundtable</h3>
             <p style="color: #666; margin: 0 0 15px 0; line-height: 1.5;">
-              <strong>Next Event:</strong> February 25th, 2026 • 9:00 AM - 10:30 AM<br>
-              <strong>Location:</strong> Miami Design District<br>
-              Join us for networking and breakfast!
+              <strong>Date:</strong> March 10th, 2026<br>
+              <strong>Time:</strong> 6:00 PM - 7:30 PM<br>
+              <strong>Event:</strong> Exclusive Members-Only Roundtable
             </p>
             <div style="text-align: center;">
-              <a href="https://luma.com/8tp3t1g5" style="background: #d4af37; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: 600; display: inline-block;">Register for February 25th Event</a>
+              <a href="https://lu.ma/i8x59bp0" style="background: #d4af37; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: 600; display: inline-block;">Register for March 10th Event</a>
             </div>
           </div>
 
