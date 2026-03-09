@@ -129,6 +129,13 @@ function getEmailHtml(name) {
           <a href="https://lu.ma/i8x59bp0" style="background: #d4af37; color: #000; padding: 15px 35px; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 16px; display: inline-block;">Register Now</a>
         </div>
 
+        <div style="background: #f0f0f0; padding: 20px; border-radius: 10px; margin-bottom: 25px; text-align: center;">
+          <p style="color: #333; margin: 0 0 15px 0; font-size: 15px;">
+            <strong>Not a member yet?</strong> Join with our $100 Discovery Membership and get access to this event.
+          </p>
+          <a href="https://miamibusinesscouncil.com/discovery" style="background: #000; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; display: inline-block;">Get Your $100 Membership</a>
+        </div>
+
         <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
           <p style="color: #555; margin: 0; line-height: 1.6;">
             Looking forward to seeing you there!<br><br>
